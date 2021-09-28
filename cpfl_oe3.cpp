@@ -50,7 +50,7 @@ int main()
         cout << "Net Pay               : " << "P " <<net_pay1 <<endl;
         return 0;
     
-    }else if(gross_pay <= 30000||40000){// ||4000 is wrong  I accidentally added this but since this is what i pass on my EO i did not correct it. 
+    }else if(gross_pay <= 30000||40000){ // ||4000 is wrong  I accidentally added this but since this is what i pass on my EO i did not correct it. 
         net_pay2 = gross_pay * TAX2;
         cout << "\n----------------------Salary--------------------------" <<endl;
         cout << "Employee ID           : " << name <<endl;
