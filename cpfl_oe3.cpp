@@ -50,7 +50,7 @@ int main()
         cout << "Net Pay               : " << "P " <<net_pay1 <<endl;
         return 0;
     
-    }else if(gross_pay <= 30000|40000){
+    }else if(gross_pay <= 30000||40000){
         net_pay2 = gross_pay * TAX2;
         cout << "\n----------------------Salary--------------------------" <<endl;
         cout << "Employee ID           : " << name <<endl;
