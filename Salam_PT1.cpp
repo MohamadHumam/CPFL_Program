@@ -18,7 +18,7 @@ int main()
     cout << " Enter " << r << " Consecutive Number(s) : ";
     cin >> n;
 
-    //If Else Statement on Formula on Even and Odd
+    //If Else Statement on Formula on Even and Odd/ Output
 
     if (n %2 == 0){
         cout << " " << n << " -is Even\n ";
@@ -26,7 +26,7 @@ int main()
     }else{
         cout << " " << n << " -is Odd\n ";
 
-    // While loop with If Else Statement 
+    // While loop with If Else Statement/ Ouput
 
     }
     while(n <= r)
