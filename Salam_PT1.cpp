@@ -10,17 +10,23 @@ using namespace std;
 int main()
 {
     int n,r;
-    
+
+    //Input
+
     cout << " Enter The Range of Number(s) : ";
     cin >> r;
     cout << " Enter " << r << " Consecutive Number(s) : ";
     cin >> n;
-     
+
+    //If Else Statement on Formula on Even and Odd
+
     if (n %2 == 0){
         cout << " " << n << " -is Even\n ";
         
     }else{
         cout << " " << n << " -is Odd\n ";
+
+    // While loop with If Else Statement 
 
     }
     while(n <= r)
