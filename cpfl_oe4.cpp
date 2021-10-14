@@ -14,12 +14,12 @@ int main()
 
     for ( h = 1; h <= height; h++ )
     {
-        
+        // This is the space inside the pyramid
         for ( i = 1; i <= (height - h); i++)
         {
             cout << " ";
         }
-
+        // This to print *(star)
         for ( o = 1; o <= h * 2 - 1; o++)
         {
             
@@ -35,7 +35,7 @@ int main()
             {
               cout << " ";
             }
-
+        // This is the gap between the pyramids
             }
              cout << " ";
 
