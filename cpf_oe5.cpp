@@ -27,7 +27,6 @@ int main(){
          cout << "[1] ||Reverse a String           ||" << endl;
          cout << "[2] ||Reverse an Unsigned Integer||" << endl;
          cout << "[3] ||Exit                       ||" << endl;
-         cout << "Select Conversion : ";
          cin >> c;
 
         switch(c){
