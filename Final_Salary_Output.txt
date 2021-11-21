@@ -1,0 +1,7 @@
+-----------------Salary--------------------
+Employee ID        : 10000
+Employee Name      : humam
+Employee Gross Pay : Php27000
+Employee Tax Rate  : 5%
+Employee Net Pay   : Php25650
++++++++++++++++++++++++++++++++++++++++++++++
