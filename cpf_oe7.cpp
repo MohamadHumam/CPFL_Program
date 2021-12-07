@@ -1,7 +1,7 @@
 //Name:Mohamad Humam D. Salam
-//Activity Name: 
-//Description: 
-//Date: 12/11/2021
+//Activity Name:OE#7
+//Description:Implement login credentials
+//Date: 12/ 07 /2021
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -24,17 +24,17 @@ while (Login < 3)
         if (userName == "HumamI" && Password == "mark")
         {
             cout << "Welcome Admin!\n";
-            break;
+            return 0;
         }
         else if (userName == "humami" && Password == "mark")
         {
             cout << "Welcome User!\n";
-            break;
+            return 0;
         }
         else if (userName == "humam1" && Password == "mark")
         {
             cout << "Welcome User!\n";
-            break;
+            return 0;
         }
         else
         {
@@ -51,7 +51,7 @@ while (Login < 3)
     cout << "Thank you for logging in.\n";
     
     string name, employeeid, taxR;
-    int num_hours_work; // Number of Hours
+    int num_hours_work;
     double rate_per_hour, gross_pay, tax_p, net_p;
     cout << "Enter Name                   : ";
         cin >> name;
